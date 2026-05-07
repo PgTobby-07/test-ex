@@ -1,0 +1,14 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" rx="40" fill="#1E1B4B"/>
+  <rect x="70" y="70" width="1060" height="760" rx="32" fill="url(#paint0_linear)"/>
+  <path d="M430 250L520 200L600 290L680 200L770 250L720 370V690H480V370L430 250Z" fill="#F8FAFC"/>
+  <path d="M565 230H635L600 286L565 230Z" fill="#E2E8F0"/>
+  <text x="120" y="180" fill="#1E1B4B" font-size="58" font-family="Arial" font-weight="700">Classic Linen Shirt</text>
+  <text x="120" y="760" fill="#312E81" font-size="32" font-family="Arial">Relaxed tailoring with breathable daily comfort</text>
+  <defs>
+    <linearGradient id="paint0_linear" x1="100" y1="100" x2="1095" y2="805" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#DDD6FE"/>
+      <stop offset="1" stop-color="#F5F3FF"/>
+    </linearGradient>
+  </defs>
+</svg>

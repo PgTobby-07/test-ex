@@ -1,0 +1,19 @@
+{
+  "name": "ewp-ci-cd-pw-ut",
+  "version": "1.0.0",
+  "description": "A production-style e-commerce backend built with FastAPI, featuring authentication, product management, cart system, order processing, and real Stripe payment integration with webhooks.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.59.1"
+  }
+}

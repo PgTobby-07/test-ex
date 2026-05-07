@@ -1,0 +1,15 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" rx="40" fill="#111827"/>
+  <rect x="70" y="70" width="1060" height="760" rx="32" fill="url(#paint0_linear)"/>
+  <path d="M260 560C318 536 394 494 466 490C534 486 590 518 664 548C736 576 818 596 936 600C956 600 970 616 970 636V662C970 690 948 712 920 712H320C280 712 244 684 232 646L220 604L260 560Z" fill="#111827"/>
+  <path d="M422 514L504 396L632 428L732 524L422 514Z" fill="#F9FAFB"/>
+  <path d="M538 452L700 548" stroke="#F59E0B" stroke-width="16" stroke-linecap="round"/>
+  <text x="120" y="180" fill="#7C2D12" font-size="58" font-family="Arial" font-weight="700">Runner Street Sneakers</text>
+  <text x="120" y="760" fill="#9A3412" font-size="32" font-family="Arial">Lightweight sneakers for movement and street style</text>
+  <defs>
+    <linearGradient id="paint0_linear" x1="98" y1="102" x2="1062" y2="792" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FED7AA"/>
+      <stop offset="1" stop-color="#FFFBEB"/>
+    </linearGradient>
+  </defs>
+</svg>

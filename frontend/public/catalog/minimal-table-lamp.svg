@@ -1,0 +1,16 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" rx="40" fill="#1C1917"/>
+  <rect x="70" y="70" width="1060" height="760" rx="32" fill="url(#paint0_linear)"/>
+  <ellipse cx="600" cy="690" rx="190" ry="44" fill="#44403C"/>
+  <rect x="565" y="420" width="70" height="250" rx="35" fill="#57534E"/>
+  <path d="M460 430C478 302 542 240 600 240C658 240 722 302 740 430H460Z" fill="#FDE68A"/>
+  <path d="M500 430C516 334 558 290 600 290C642 290 684 334 700 430H500Z" fill="#FB923C"/>
+  <text x="120" y="180" fill="#7C2D12" font-size="58" font-family="Arial" font-weight="700">Minimal Table Lamp</text>
+  <text x="120" y="760" fill="#44403C" font-size="32" font-family="Arial">Warm lighting for calm work and living corners</text>
+  <defs>
+    <linearGradient id="paint0_linear" x1="96" y1="96" x2="1070" y2="798" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FED7AA"/>
+      <stop offset="1" stop-color="#FEF3C7"/>
+    </linearGradient>
+  </defs>
+</svg>

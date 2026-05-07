@@ -1,0 +1,17 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" rx="40" fill="#0F172A"/>
+  <rect x="70" y="70" width="1060" height="760" rx="32" fill="url(#paint0_linear)"/>
+  <rect x="430" y="220" width="340" height="470" rx="120" fill="#166534"/>
+  <rect x="485" y="290" width="230" height="210" rx="54" fill="#22C55E"/>
+  <rect x="510" y="530" width="180" height="100" rx="34" fill="#14532D"/>
+  <path d="M430 356C388 420 366 468 360 560" stroke="#166534" stroke-width="26" stroke-linecap="round"/>
+  <path d="M770 356C812 420 834 468 840 560" stroke="#166534" stroke-width="26" stroke-linecap="round"/>
+  <text x="120" y="180" fill="#14532D" font-size="58" font-family="Arial" font-weight="700">Trail Hydration Backpack</text>
+  <text x="120" y="760" fill="#166534" font-size="32" font-family="Arial">Built for trail days, movement, and fast access gear</text>
+  <defs>
+    <linearGradient id="paint0_linear" x1="100" y1="100" x2="1050" y2="805" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#BBF7D0"/>
+      <stop offset="1" stop-color="#ECFCCB"/>
+    </linearGradient>
+  </defs>
+</svg>

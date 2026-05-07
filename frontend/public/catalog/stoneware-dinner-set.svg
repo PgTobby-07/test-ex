@@ -1,0 +1,17 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" rx="40" fill="#111827"/>
+  <rect x="70" y="70" width="1060" height="760" rx="32" fill="url(#paint0_linear)"/>
+  <circle cx="510" cy="460" r="150" fill="#E5E7EB"/>
+  <circle cx="510" cy="460" r="94" fill="#F9FAFB"/>
+  <circle cx="730" cy="540" r="106" fill="#D1D5DB"/>
+  <circle cx="730" cy="540" r="62" fill="#F3F4F6"/>
+  <circle cx="790" cy="360" r="72" fill="#F3F4F6"/>
+  <text x="120" y="180" fill="#1F2937" font-size="58" font-family="Arial" font-weight="700">Stoneware Dinner Set</text>
+  <text x="120" y="760" fill="#4B5563" font-size="32" font-family="Arial">Modern tableware designed for everyday hosting</text>
+  <defs>
+    <linearGradient id="paint0_linear" x1="120" y1="110" x2="1038" y2="794" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F3F4F6"/>
+      <stop offset="1" stop-color="#E5E7EB"/>
+    </linearGradient>
+  </defs>
+</svg>

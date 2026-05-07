@@ -1,0 +1,16 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Environment secrets
+.env
+.env.*
+
+# Uploads
+uploads/
+backend/uploads/
+
+# OS / editor
+.DS_Store
+.vscode/
