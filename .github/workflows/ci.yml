@@ -48,48 +48,45 @@ jobs:
           pip install pytest httpx
 
       - name: Run tests
-       working-directory: backend
-       run: pytest app -q
+        working-directory: backend
+        run: pytest app -q
 
 
   frontend-build:
-  name: Frontend (Next.js + Playwright)
-  runs-on: ubuntu-latest
+    name: Frontend (Next.js + Playwright)
+    runs-on: ubuntu-latest
 
-  steps:
-    - name: Checkout repo
-      uses: actions/checkout@v4
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
 
-    - name: Setup Node.js
-      uses: actions/setup-node@v4
-      with:
-        node-version: "20"
-        cache: "npm"
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
 
-    # Install frontend deps
-    - name: Install frontend dependencies
-      working-directory: frontend
-      run: npm ci
+      - name: Install frontend dependencies
+        working-directory: frontend
+        run: npm ci
 
-    - name: Lint frontend
-      working-directory: frontend
-      run: npm run lint
+      - name: Lint frontend
+        working-directory: frontend
+        run: npm run lint
 
-    - name: Type check
-      working-directory: frontend
-      run: npm run typecheck --if-present
+      - name: Type check
+        working-directory: frontend
+        run: npm run typecheck --if-present
 
-    - name: Build frontend
-      working-directory: frontend
-      run: npm run build
+      - name: Build frontend
+        working-directory: frontend
+        run: npm run build
 
-    # Install Playwright deps (ROOT context)
-    - name: Install Playwright dependencies
-      run: npm ci
+      - name: Install Playwright dependencies
+        run: npm ci
 
-    - name: Install Playwright browsers
-      run: npx playwright install --with-deps
+      - name: Install Playwright browsers
+        run: npx playwright install --with-deps
 
-    # Run Playwright from ROOT (important)
-    - name: Run Playwright tests
-      run: npx playwright test
+      - name: Run Playwright tests
+        run: npx playwright test
